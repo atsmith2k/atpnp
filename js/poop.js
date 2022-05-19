@@ -6,7 +6,6 @@ function openGarage() {
     container.classList.add('animate__slideOutUp');
 
     document.addEventListener("keydown", (event) => {
-        
         container.classList.remove('animate__slideOutUp');
         container.classList.add('animate__slideInDown');
     });
