@@ -1,0 +1,14 @@
+html, body {
+    margin:0px;
+    height:100%;
+    background: rgb(37, 41, 41);
+  }
+
+  .shopify-buy__layout-vertical {
+    background: red;
+    border-radius: 30px;
+  }
+
+  .container {
+      margin: 3%;
+  }

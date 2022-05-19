@@ -20,6 +20,19 @@ html, body {
     height:100%;
 }
 
+.product {
+    display: 'none' !important;
+}
+
+.insideGarage {
+    background: black no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:50%;
+}
+
 @media (max-width: 1080px) {
     .container {
         background: url('../img/rayrays-mobile-bg.png') no-repeat center center fixed; 
