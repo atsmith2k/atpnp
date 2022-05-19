@@ -9,12 +9,44 @@ html, body {
     margin:0px;
     height:100%;
   }
-  
-  .container {
+
+.container {
     background: url('../img/rayrays-bg.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height:100%;
-  }
+}
+
+@media (max-width: 1080px) {
+    .container {
+        background: url('../img/rayrays-mobile-bg.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        background: url('../img/rayrays-480-bg.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        background: url('../img/rayrays-300-bg.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+    }
+}
