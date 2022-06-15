@@ -8,7 +8,7 @@
 html, body {
     margin:0px;
     height:100%;
-    background: rgb(37, 41, 41);
+    background: rgb(152, 158, 158);
   }
 
 .container {
@@ -19,9 +19,11 @@ html, body {
     background-size: cover;
     height:100%;
 }
-
-.product {
-    display: 'none' !important;
+.container2 {
+    display: none;
+    height:100%;
+    width:auto;
+    margin: 3%;
 }
 
 .insideGarage {
